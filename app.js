@@ -9,6 +9,7 @@ const CONNECTION_STRING = process.env.CONNECTION_STRING
 const indexRouter = require('./routes/index')
 const postsRouter = require('./routes/posts')
 const app = express()
+
 // view engine setup to a
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'jade')
